@@ -6,7 +6,6 @@ class Main {
         String A = sc.next();
         System.out.println(FirstNonRepeating(A));
     }
-
     public static String FirstNonRepeating(String A) {
         int j = 0;
         StringBuilder ans = new StringBuilder();
